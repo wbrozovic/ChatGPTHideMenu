@@ -1,0 +1,24 @@
+{
+  "name": "ChatGPT Collapse Menu",
+  "description": "Collapse the menu in the OpenAI ChatGPT interface, that's it!",
+  "author": "Will Brozovic",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.chat.openai.com/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icon.png"
+  },
+  "permissions": []
+}

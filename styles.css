@@ -1,0 +1,15 @@
+/* This is injected after a web page loads */
+.menu-btn__open {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.25rem;
+}
+.menu-btn__open:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.menu-btn__closed, .menu-btn__closed:hover {
+  color: black;
+}
